@@ -134,3 +134,25 @@
     width: 95%;
   }
 }
+
+.awards {
+  width: 100%;
+  height: 704px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(
+    268.52deg,
+    #e3e7f6 -52.27%,
+    rgba(227, 231, 246, 0) 138.23%
+  );
+  @media (max-width: $breakpoint768) {
+    padding: 24px 12px;
+    height: auto;
+  }
+}
+.container {
+}
+
+.secton_card {
+}

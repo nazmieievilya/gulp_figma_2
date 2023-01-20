@@ -101,3 +101,54 @@ body {
     font-size: 21px;
   }
 }
+
+.flex_two_cols {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  @media (max-width: $breakpoint768) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+}
+.section_card {
+  width: 50%;
+  @media (max-width: $breakpoint768) {
+    width: 100%;
+  }
+}
+
+.section_card_img {
+  width: 100%;
+}
+
+.card_header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 57px;
+  /* or 130% */
+
+  display: flex;
+  align-items: center;
+
+  color: #1a2578;
+  margin-bottom: 16px;
+  @media (max-width: $breakpoint768) {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+}
+.card_p {
+  font-family: "Europa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #484c63;
+  @media (max-width: $breakpoint768) {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
