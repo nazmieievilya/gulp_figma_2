@@ -10,6 +10,11 @@
   @media (max-width: $breakpoint1200) {
     width: 100%;
   }
+
+  @media (max-width: $breakpoint768) {
+    padding-bottom: 42px;
+    margin-top: 50px;
+  }
 }
 
 .brands_container h2 {
@@ -26,6 +31,7 @@
     margin-bottom: 60px;
     text-align: center;
   }
+
   @media (max-width: $breakpoint480) {
     font-size: 16px;
     max-width: 331px;
@@ -56,5 +62,75 @@
   }
   @media (max-width: $breakpoint480) {
     max-width: 43px;
+  }
+}
+
+.product_line {
+}
+
+.products_line {
+  margin-top: 97px;
+  display: flex;
+  gap: 32px;
+  padding-bottom: 108px;
+  @media (max-width: $breakpoint768) {
+    flex-direction: column;
+    margin-top: 48px;
+  }
+}
+.product_card {
+  padding: 62px;
+  padding-top: 0;
+  position: relative;
+  height: 530px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07),
+    0px 25px 35px rgba(22, 23, 72, 0.08);
+  border-radius: 8px;
+  overflow: hidden;
+  @media (max-width: $breakpoint768) {
+    padding: 24px;
+    height: 450px;
+  }
+}
+.product_card svg {
+  margin-right: 9px;
+}
+.product_line_logo {
+  margin-top: 64px;
+  margin-bottom: 40px;
+  @media (max-width: $breakpoint768) {
+    margin-top: 32px;
+    margin-bottom: 20px;
+  }
+}
+.product_line_p {
+  font-family: "Europa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  /* or 129% */
+
+  display: flex;
+  align-items: center;
+
+  /* Dark / Dark 1 */
+  margin-bottom: 32px;
+  color: #3a3a3c;
+  @media (max-width: $breakpoint768) {
+    margin-bottom: 20px;
+  }
+}
+.btn {
+}
+.btn_secondary {
+}
+.background_img {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  @media (max-width: $breakpoint992) {
+    width: 95%;
   }
 }
