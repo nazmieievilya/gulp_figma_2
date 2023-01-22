@@ -108,7 +108,6 @@ body {
   justify-content: space-around;
   @media (max-width: $breakpoint768) {
     flex-direction: column;
-    align-items: flex-start;
     gap: 30px;
   }
 }
@@ -147,6 +146,7 @@ body {
   font-size: 16px;
   line-height: 27px;
   color: #484c63;
+  margin-bottom: 16px;
   @media (max-width: $breakpoint768) {
     font-size: 16px;
     line-height: 1.3;

@@ -151,8 +151,49 @@
     height: auto;
   }
 }
-.container {
+.innovation {
+  margin-top: 120px;
 }
 
-.secton_card {
+.section_header {
+}
+.secton_p {
+}
+.innovation_container {
+  display: flex;
+  gap: 30px;
+  margin-top: 113px;
+  margin-bottom: 99px;
+  @media (max-width: $breakpoint992) {
+    display: grid;
+    justify-items: center;
+    column-gap: 0;
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: $breakpoint768) {
+    display: grid;
+    justify-items: center;
+    column-gap: 0;
+    grid-template-columns: 1fr;
+  }
+}
+.innovation_item {
+  width: 256px;
+  height: 119px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07),
+    0px 25px 35px rgba(22, 23, 72, 0.05);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: $breakpoint768) {
+    width: 90%;
+  }
+}
+
+.innovation_item img {
+  @media (max-width: $breakpoint768) {
+    width: 60%;
+  }
 }
